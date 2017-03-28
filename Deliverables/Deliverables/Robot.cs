@@ -25,11 +25,10 @@ namespace Deliverables
         {
             Console.WriteLine($"Shutdown...");
         }
-        public string IsTerminator()
+        public bool IsTerminator()
         {
-            if Robot is IsTerminator
-            return true
-        
+            return (Name == "Terminator");
+                        
         }
         public bool shutdown { get; set; }
         public bool IsASleep()
